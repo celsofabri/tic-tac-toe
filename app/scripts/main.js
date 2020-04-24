@@ -182,13 +182,16 @@ for (let i = 0; i < squares.length; i++) {
   });
 }
 
-reset.addEventListener('click', () => {
-  square.classList.remove('square--disabled');
+if (reset) {
+  reset.addEventListener('click', () => {
+    square.classList.remove('square--disabled');
 
-  for (let i = 0; i < squares.length; i++) {
-    squares[i].classList.remove('square__item--one');
-    squares[i].classList.remove('square__item--two');
-  }
+    for (let i = 0; i < squares.length; i++) {
+      squares[i].classList.remove('square__item--one');
+      squares[i].classList.remove('square__item--two');
+    }
 
-  result.innerHTML = '';
-});
+    result.innerHTML = '';
+  });
+}
+

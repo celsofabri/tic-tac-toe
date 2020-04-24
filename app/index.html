@@ -4,17 +4,19 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>tic tac toe</title>
+    <title>Tic Tac Toe</title>
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
     <!-- build:css styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
+    <!-- build:css styles/home.css -->
+    <link rel="stylesheet" href="styles/home.css">
+    <!-- endbuild -->
 
     <!-- build:js scripts/vendor/modernizr.js -->
     <script src="scripts/modernizr.js"></script>
     <!-- endbuild -->
-
 
   </head>
   <body>
@@ -22,37 +24,73 @@
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="hash">
+    <!-- Header -->
+    <header class="header">
 
-      <div id="square" class="square">
-        <div id="square-1" class="square__item"></div>
-        <div id="square-2" class="square__item"></div>
-        <div id="square-3" class="square__item"></div>
-        <div id="square-4" class="square__item"></div>
-        <div id="square-5" class="square__item"></div>
-        <div id="square-6" class="square__item"></div>
-        <div id="square-7" class="square__item"></div>
-        <div id="square-8" class="square__item"></div>
-        <div id="square-9" class="square__item"></div>
+      <!-- Wrapper -->
+      <div class="wrap">
+
+        <h1 class="logo">
+          <a href="/" title="Tic Tac Toe (Jogo da Velha)">
+            <img src="images/tictactoe.svg" width="100" height="auto" alt="Tic Tac Toe (Jogo da Velha)">
+          </a>
+        </h1>
+
       </div>
+      <!-- / Wrapper -->
 
-      <div class="result">
-        <div id="result-message" class="result__message"></div>
+    </header>
+    <!-- Header -->
+
+    <!-- Content -->
+    <article class="content">
+
+      <!-- About -->
+      <section class="about">
+
+        <!-- Wrapper -->
+        <div class="wrap">
+
+          <h3 class="section__title">About</h3>
+
+          <p>The <strong>Tic Tac Toe</strong> project was to create a simple game using just HTML, CSS, and JavaScript to build.</p>
+
+          <p>The inspiration was to explore one simple solution using more CSS than JS to apply UI rules in the game.</p>
+
+          <p>This project is just an experiment of study.</p>
+
+          <a href="/play.html" title="Play Game" class="btn">Play Game</a>
+
+        </div>
+        <!-- / Wrapper -->
+
+      </section>
+      <!-- About  -->
+
+    </article>
+    <!-- / Content -->
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <!-- Wrapper -->
+      <div class="wrap">
+
+        <p>Crafted by <strong><a href="https://celsofabri.github.io" title="Celso Fabri Junior | Front-End Developer" target="_blank">@celsofabri</a></strong> with love ♥</p>
+
       </div>
+      <!-- / Wrapper -->
 
-    </div>
-
-    <div class="actions">
-      <button id="reset" class="reset">Recomeçar</button>
-    </div>
-
+    </footer>
+    <!-- / Footer -->
 
     <!-- build:js scripts/vendor.js -->
-
 
     <!-- endbuild -->
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
+
+    <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Righteous&display=swap" rel="stylesheet">
   </body>
 </html>

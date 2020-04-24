@@ -1,0 +1,40 @@
+@import './variables/fonts';
+@import './variables/colors';
+
+body {
+  color: #fff;
+  background-color: #000;
+}
+
+.about {
+  // Box Model
+  padding: 70px 0;
+
+  strong {
+    // Typography
+    color: $purple;
+  }
+
+  @media screen and (max-width: 768px) {
+    // Box Model
+    padding: 20px 0;
+  }
+}
+
+.section {
+
+  &__title {
+    font-family: $righteous;
+    font-size: 32px;
+    color: $purple;
+    text-transform: uppercase;
+  }
+}
+
+.footer {
+
+  a {
+    // Typography
+    color: $purple;
+  }
+}
