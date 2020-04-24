@@ -18,13 +18,13 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 120px;
-  height: 120px;
+  width: 360px;
+  height: 360px;
 
   &__item {
     position: relative;
-    width: 40px;
-    height: 40px;
+    width: 120px;
+    height: 120px;
     border-top: 1px solid #333;
     border-left: 1px solid #333;
     cursor: pointer;
@@ -58,7 +58,7 @@ body {
       &:before {
         // Visual
         background-repeat: no-repeat;
-        background-size: 24px;
+        background-size: 64px;
         background-position: center;
       }
     }
@@ -85,12 +85,62 @@ body {
   }
 }
 
+.result {
+  // Position
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  // Box Model
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+
+  // Visual
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, .85);
+  transition: all .4s ease-out;
+
+  &--visible {
+    // Visual
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &__content {
+    // Typography
+    text-align: center;
+
+    img {
+      max-width: 80px;
+      height: auto;
+    }
+  }
+
+  &__message {
+    // Box Model
+    margin: 30px 0;
+
+    p {
+      // Typography
+      font-size: 32px;
+      font-weight: 700;
+      color: #fff;
+    }
+  }
+}
+
 .actions {
   position: absolute;
   top: 0;
   left: 0;
   display: flex;
   justify-content: center;
+  margin: -8px;
   padding: 24px;
 }
 

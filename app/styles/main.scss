@@ -28,11 +28,12 @@ body {
 .btn {
   // Box Model
   display: inline-block;
-  margin: 8px 0;
+  margin: 8px;
 
   padding: 16px 24px;
 
   // Typography
+  font-size: 11px;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
