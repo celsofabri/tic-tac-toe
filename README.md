@@ -1,5 +1,5 @@
 # tic tac toe
-This project was served by github pages. https://celsofabri.github.io/tic-tac-toe/
+This project is served by github pages. https://celsofabri.github.io/tic-tac-toe/
 
 ![tic tac toe](./tictactoe-thumb.png)
 
