@@ -11,7 +11,11 @@ body {
   font-family: $quattrocento;
   font-size: 16px;
   font-weight: 400;
+  color: #fff;
   line-height: 1.6;
+
+  // Visual
+  background-color: #000;
 }
 
 .wrap {
@@ -34,7 +38,35 @@ body {
   text-decoration: none;
 
   // Visual
+  border: 1px solid transparent;
   background-color: $purple;
+  cursor: pointer;
+  transition: all .4s ease-out;
+
+  &:hover {
+    // Typography
+    color: $purple;
+
+    // Visual
+    background-color: #fff;
+  }
+
+  &--outline {
+    // Typography
+    color: $purple;
+
+    // Visual
+    border-color: $purple;
+    background-color: transparent;
+
+    &:hover {
+      // Typography
+      color: #fff;
+
+      // Visual
+      background-color: $purple;
+    }
+  }
 }
 
 .logo {

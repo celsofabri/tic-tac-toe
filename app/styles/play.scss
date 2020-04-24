@@ -54,19 +54,28 @@ body {
     &--one,
     &--two {
       pointer-events: none;
+
+      &:before {
+        // Visual
+        background-repeat: no-repeat;
+        background-size: 24px;
+        background-position: center;
+      }
     }
 
     &--one {
 
       &:before {
-        content : 'X';
+        background-image: url('../images/marker-x.svg');
+        content : '';
       }
     }
 
     &--two {
 
       &:before {
-        content : 'O';
+        background-image: url('../images/marker-circle.svg');
+        content : '';
       }
     }
   }
