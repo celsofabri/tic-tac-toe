@@ -19,10 +19,10 @@ Yes, you can contributing :) But follow the steps below:
 ## To Do
 I wanna improve this project in the future. Some ideias are:
 
-[] Add user score;
-[] Add player names before of the game; 
-[] Add option to choice avatar game;
-[] Create animations.
+- [ ] Add user score;
+- [ ] Add player names before of the game; 
+- [ ] Add option to choice avatar game;
+- [ ] Create animations.
 
 ## Developing
 
