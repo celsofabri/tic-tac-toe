@@ -44,7 +44,7 @@
     "test": "npm run serve:test",
     "tasks": "gulp --tasks",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "browserslist": [
     "> 1%",
