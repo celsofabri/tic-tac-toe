@@ -30,7 +30,7 @@ const playerOneWins = () => {
     square3.classList.contains(playerOne)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 1 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -40,7 +40,7 @@ const playerOneWins = () => {
     square6.classList.contains(playerOne)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 1 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -50,7 +50,7 @@ const playerOneWins = () => {
     square9.classList.contains(playerOne)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 1 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -60,7 +60,7 @@ const playerOneWins = () => {
     square7.classList.contains(playerOne)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 1 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -70,7 +70,7 @@ const playerOneWins = () => {
     square8.classList.contains(playerOne)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 1 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -80,7 +80,7 @@ const playerOneWins = () => {
     square9.classList.contains(playerOne)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 1 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -90,7 +90,7 @@ const playerOneWins = () => {
     square9.classList.contains(playerOne)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 1 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -100,7 +100,7 @@ const playerOneWins = () => {
     square7.classList.contains(playerOne)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 1 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 }
@@ -112,7 +112,7 @@ const playerTwoWins = () => {
     square3.classList.contains(playerTwo)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 2 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -122,7 +122,7 @@ const playerTwoWins = () => {
     square6.classList.contains(playerTwo)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 2 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -132,7 +132,7 @@ const playerTwoWins = () => {
     square9.classList.contains(playerTwo)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 2 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -142,7 +142,7 @@ const playerTwoWins = () => {
     square7.classList.contains(playerTwo)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 2 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -152,7 +152,7 @@ const playerTwoWins = () => {
     square8.classList.contains(playerTwo)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 2 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -162,7 +162,7 @@ const playerTwoWins = () => {
     square9.classList.contains(playerTwo)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 2 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -172,7 +172,7 @@ const playerTwoWins = () => {
     square9.classList.contains(playerTwo)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 2 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 
@@ -182,7 +182,7 @@ const playerTwoWins = () => {
     square7.classList.contains(playerTwo)
     ) {
     result.classList.add(showResult);
-    resultMessage.innerHTML += '<p>Jogador 2 venceu :)</p>';
+    resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
     square.classList.add(gameOver);
   }
 }

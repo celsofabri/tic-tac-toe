@@ -4,6 +4,9 @@
 * {
   // Box Model
   box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
 
 body {
@@ -76,8 +79,12 @@ body {
 
   // Typography
   font-family: $righteous;
+  line-height: 0;
 
   a {
+    // Box Model
+    display: inline-block;
+
     // Typography
     color: $purple;
     text-decoration: none;
@@ -86,5 +93,10 @@ body {
       // Typography
       color: #fff;
     }
+  }
+
+  img {
+    //
+    display: inline-block;
   }
 }
