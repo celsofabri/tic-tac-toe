@@ -28,7 +28,28 @@
 
 .footer {
 
-  a {
+  &__list {
+    // Box Model
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: -10px;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    margin: 10px;
+  }
+
+  &__anchor {
+    // Typography
+    font-size: 14px;
+    color: $purple;
+  }
+
+  .profile {
     // Typography
     color: $purple;
   }
