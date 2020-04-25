@@ -1,4 +1,4 @@
-const square = document.getElementById('square');
+const hash = document.getElementById('square');
 const squares = document.querySelectorAll('.square__item');
 let click = 0;
 
@@ -31,7 +31,7 @@ const playerOneWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -41,7 +41,7 @@ const playerOneWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -51,7 +51,7 @@ const playerOneWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -61,7 +61,7 @@ const playerOneWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -71,7 +71,7 @@ const playerOneWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -81,7 +81,7 @@ const playerOneWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -91,7 +91,7 @@ const playerOneWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -101,7 +101,7 @@ const playerOneWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 }
 
@@ -113,7 +113,7 @@ const playerTwoWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -123,7 +123,7 @@ const playerTwoWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -133,7 +133,7 @@ const playerTwoWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -143,7 +143,7 @@ const playerTwoWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -153,7 +153,7 @@ const playerTwoWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -163,7 +163,7 @@ const playerTwoWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -173,7 +173,7 @@ const playerTwoWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 
   if(
@@ -183,7 +183,7 @@ const playerTwoWins = () => {
     ) {
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 2 Wins! :)</p>';
-    square.classList.add(gameOver);
+    hash.classList.add(gameOver);
   }
 }
 
@@ -202,7 +202,7 @@ for (let i = 0; i < squares.length; i++) {
 }
 
 const resetGame = () => {
-  square.classList.remove('square--disabled');
+  hash.classList.remove('square--disabled');
 
   for (let i = 0; i < squares.length; i++) {
     squares[i].classList.remove('square__item--one');
@@ -224,4 +224,3 @@ if (close) {
     resetGame();
   });
 }
-
