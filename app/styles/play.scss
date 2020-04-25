@@ -2,10 +2,12 @@
 @import './variables/colors';
 
 * {
+  // Box Model
   box-sizing: border-box;
 }
 
 body {
+  // Box Model
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,12 +15,14 @@ body {
   height: 100vh;
 
   @media screen and (max-height: 700px) {
+    // Box Model
     align-items: flex-start;
     padding-top: 180px;
   }
 }
 
 .square {
+  // Box Model
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,28 +31,37 @@ body {
   height: 360px;
 
   &__item {
+    // Position
     position: relative;
+
+    // Box Model
     width: 120px;
     height: 120px;
+
+    // Visual
     border-top: 1px solid #333;
     border-left: 1px solid #333;
     cursor: pointer;
 
     &:hover {
+      // Visual
       background-color: #eee;
     }
 
     &:nth-child(1),
     &:nth-child(2),
     &:nth-child(3) {
+      // Visual
       border-top: 0;
     }
 
     &:nth-child(3n+1) {
+      // Visual
       border-left: 0;
     }
 
     &:before {
+      // Box Model
       display: flex;
       justify-content: center;
       align-items: center;
@@ -58,6 +71,7 @@ body {
 
     &--one,
     &--two {
+      // Visual
       pointer-events: none;
 
       &:before {
@@ -71,6 +85,7 @@ body {
     &--one {
 
       &:before {
+        // Visual
         background-image: url('../images/marker-x.svg');
         content : '';
       }
@@ -79,6 +94,7 @@ body {
     &--two {
 
       &:before {
+        // Visual
         background-image: url('../images/marker-circle.svg');
         content : '';
       }
@@ -86,6 +102,7 @@ body {
   }
 
   &--disabled {
+    // Visual
     pointer-events: none;
   }
 }
@@ -121,6 +138,7 @@ body {
     text-align: center;
 
     img {
+      // Box Model
       max-width: 80px;
       height: auto;
     }
@@ -141,9 +159,12 @@ body {
 }
 
 .actions {
+  // Position
   position: absolute;
   top: 0;
   left: 0;
+
+  // Box Model
   display: flex;
   justify-content: center;
   margin: -8px;
@@ -151,16 +172,24 @@ body {
 }
 
 .reset {
+  // Box Model
   display: inline-block;
   padding: 8px 16px;
+
+  // Typography
   font-size: 12px;
   text-transform: uppercase;
+
+  // Visual
   border: 1px solid #333;
   background-color: transparent;
   cursor: pointer;
 
   &:hover {
+    // Typography
     color: #fff;
+
+    // Visual
     background-color: #333;
   }
 }
