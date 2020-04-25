@@ -4,12 +4,14 @@
 * {
   // Box Model
   box-sizing: border-box;
-  margin: 0;
-  border: 0;
-  padding: 0;
 }
 
 body {
+  // Box Model
+  margin: 0;
+  padding: 0;
+  border: 0;
+
   // Typography
   font-family: $quattrocento;
   font-size: 16px;
