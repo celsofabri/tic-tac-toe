@@ -13,7 +13,7 @@ Yes, you can contributing :) But follow the steps below:
 
 - Fork this project;
 - Create a new branch in project local;
-- Do your propose;
+- Do your proposal;
 - Open a PR to this project;
 - Wait for the review.
 
