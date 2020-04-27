@@ -134,6 +134,10 @@ a {
       // Typography
       color: #fff;
     }
+
+    &:after {
+      content: none;
+    }
   }
 
   img {
