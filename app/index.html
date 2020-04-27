@@ -96,11 +96,20 @@
     <!-- / Footer -->
 
     <!-- build:js scripts/vendor.js -->
-
     <!-- endbuild -->
     <!-- build:js scripts/main.js -->
-    <script src="scripts/main.js"></script>
+    <script src="scripts/main.js" type="text/javascript" defer></script>
     <!-- endbuild -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164592461-1"></script>
+    <script type="text/javascript" defer>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-164592461-1');
+    </script>
 
     <link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Righteous&display=swap" rel="stylesheet">
   </body>

@@ -29,6 +29,7 @@ const playerOneWins = () => {
     square2.classList.contains(playerOne) &&
     square3.classList.contains(playerOne)
     ) {
+    this.classList.add('wins');
     result.classList.add(showResult);
     resultMessage.innerHTML += '<p>Player 1 Wins! :)</p>';
     hash.classList.add(gameOver);
